@@ -1,0 +1,22 @@
+#heading 
+{
+    background-color: #000342;
+    padding-bottom: 1rem;
+}
+
+#heading h1
+{
+    color: white;
+    text-align: center;
+}
+
+#heading h4
+{
+    color: white;
+    text-align: center;
+}
+
+#heading img
+{
+    margin-left: 20rem;
+}
