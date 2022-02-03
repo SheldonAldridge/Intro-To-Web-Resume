@@ -1,3 +1,7 @@
+body {
+    margin: 0rem;
+}
+
 #heading {
     background-color: #000342;
     padding-bottom: 1rem;
@@ -17,9 +21,14 @@
     margin-left: 53rem;
 }
 
+#sidebar {
+    background-color: #04400E;
+    margin-right: 110rem;
+    padding-bottom: 1rem;
+    margin-top: -1.3rem;
+}
 
-@media screen and (min-width: 375px) {
-    #heading img {
-        margin-left: rem;
-    }
+#sidebar h2 {
+    text-align: center;
+    color: white;
 }
