@@ -1,22 +1,25 @@
-#heading 
-{
+#heading {
     background-color: #000342;
     padding-bottom: 1rem;
 }
 
-#heading h1
-{
+#heading h1 {
     color: white;
     text-align: center;
 }
 
-#heading h4
-{
+#heading h4 {
     color: white;
     text-align: center;
 }
 
-#heading img
-{
-    margin-left: 20rem;
+#heading img {
+    margin-left: 53rem;
+}
+
+
+@media screen and (min-width: 375px) {
+    #heading img {
+        margin-left: rem;
+    }
 }
