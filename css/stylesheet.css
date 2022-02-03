@@ -21,7 +21,7 @@ body {
     margin-left: 53rem;
 }
 
-#sidebar {
+#sidebar nav{
     background-color: #04400E;
     margin-right: 110rem;
     padding-bottom: 1rem;
@@ -31,4 +31,22 @@ body {
 #sidebar h2 {
     text-align: center;
     color: white;
+}
+
+#footer
+{
+    background-color: #000342;
+    padding-bottom: 1rem;
+}
+
+#footer h2
+{
+    text-align: center;
+    color: white;
+    padding-top:1rem;
+}
+
+#footer img
+{
+    padding-left: 48rem;
 }
