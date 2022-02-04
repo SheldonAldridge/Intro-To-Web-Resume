@@ -1,52 +1,50 @@
-body {
+
+html {
+     border:10px #F85B1A solid;
+}
+
+body
+{
     margin: 0rem;
 }
-
-#heading {
-    background-color: #000342;
-    padding-bottom: 1rem;
-}
-
-#heading h1 {
-    color: white;
+#header {
+    background-color: #072083;
+    color: #F85B1A;
     text-align: center;
+    font-family: BankGothic Md BT;
+    
 }
 
-#heading h4 {
-    color: white;
-    text-align: center;
+#header h3 {
+    font-family: Baskerville Old FaceT;
+    color: #F85B1A;
 }
 
-#heading img {
-    margin-left: 53rem;
+
+#sidebar {
+    background-color: #E59982;
+    width: 20%;
+    font-family: "BankGothic Md BT";
 }
 
-#sidebar nav{
-    background-color: #04400E;
-    margin-right: 110rem;
-    padding-bottom: 1rem;
-    margin-top: -1.3rem;
+#main
+{
+    background-color: #FFD7C1;
 }
 
 #sidebar h2 {
+    color: #000000;
     text-align: center;
-    color: white;
+}
+
+.nav-menu li {
+    list-style-type: none;
+    font-family: "Baskerville Old FaceT";
 }
 
 #footer
 {
-    background-color: #000342;
-    padding-bottom: 1rem;
-}
-
-#footer h2
-{
+    background-color: #072083; 
     text-align: center;
-    color: white;
-    padding-top:1rem;
-}
-
-#footer img
-{
-    padding-left: 48rem;
+    color: red;
 }
