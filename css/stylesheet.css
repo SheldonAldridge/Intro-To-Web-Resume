@@ -1,12 +1,9 @@
-
-
-
 body
 {
     margin: 0rem;
 }
 #header {
-    background-image: linear-gradient( red, black );
+    background-image: linear-gradient(red 1%, black 90%);
     color: white;
     text-align: center;
     font-family: BankGothic Md BT;
@@ -28,18 +25,20 @@ body
 
 #sidebar {
     
-    background-color: #E59982;
+    background-image: linear-gradient(black 1%, red 90%);
     width: 100%;
     font-family: "BankGothic Md BT";
 }
 
 #main
 {
-    background-color: #FFD7C1;
+    background-color: #363540;
 }
 
 #sidebar h2 {
-    color: #072083;
+    padding-top: 1rem;
+    font-family: BankGothic Md BT;
+    color: white;
     text-align: center;
 }
 
