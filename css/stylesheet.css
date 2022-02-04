@@ -1,25 +1,30 @@
 
-html {
-     border:10px #F85B1A solid;
-}
+
 
 body
 {
     margin: 0rem;
 }
 #header {
-    background-image: linear-gradient( red, black);
-    color: #F85B1A;
+    background-image: linear-gradient( red, black );
+    color: white;
     text-align: center;
     font-family: BankGothic Md BT;
+    padding-bottom:1rem;
     
 }
 
 #header h3 {
-    font-family: Baskerville Old FaceT;
-    color: #F85B1A;
+    font-family: lato;
+    color: white;
 }
 
+#header img {
+
+    width: 17%;
+    height: 17%;
+
+}
 
 #sidebar {
     
