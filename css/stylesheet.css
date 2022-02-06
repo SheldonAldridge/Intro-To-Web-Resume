@@ -1,24 +1,25 @@
 html {
     margin: auto;
 }
-
 body {
     margin: auto;
 }
 
-#sidebar {
-    position: fixed;
-    margin: auto;
-    background: #2C2C2E;
-    padding-bottom: 100%;
-    margin-top: -14rem;
+#main
+{
+    margin-left: -5%;
 }
 
-
+#sidebar {
+    position: absolute;
+    background: #2C2C2E;
+    bottom: 0%;
+    top: 0%;
+}
 
 #sidebar img {
-    margin-top: 2rem;
-    margin-left: 7rem;
+    margin-top: 15%;
+    margin-left: 25%;
     border-radius: 100%;
 
 }
@@ -74,15 +75,11 @@ body {
     font-family: lato;
 }
 
-#content {}
-
 .book-icon {
     margin-left: 32rem;
     border-radius: 100%;
     border: 3px solid black;
 }
-
-.book-icon img {}
 
 #content h2 {
     margin-left: 0rem;
@@ -99,16 +96,10 @@ body {
 
 .vl {
     border-bottom: 2px solid black;
-    width: 69rem;
+    width: 69em;
     margin-top: 34rem;
     transform: rotate3d(10, 10, 1,
             172deg);
-}
-
-#qualifications {
-    margin-left: 36rem;
-    position: relative;
-    margin-top: -32rem;
 }
 
 #date {
@@ -119,14 +110,20 @@ body {
 }
 
 #qualification {
-    margin-left: 25rem;
+    margin-left: 15em;
     text-decoration: underline;
     font-family: lato;
     font-size: 20px;
 }
 
+#qualifications {
+    margin-left: 36em;
+    position: relative;
+    margin-top: -32rem;
+}
+
 #institution {
-    margin-left: 27rem;
+    margin-left: 23rem;
     text-decoration: underline;
     font-family: lato;
     font-size: 20px;
@@ -152,13 +149,13 @@ body {
 
 
 #course {
-    margin-left: 25rem;
+    margin-left: 19rem;
     font-family: lato;
 }
 
 #CodeSapce {
-    position: absolute;
-    margin-left: 22rem;
+    position: relative;
+    left: 18em;
     font-weight: bold;
     text-decoration: none;
     font-family: lato;
@@ -170,7 +167,7 @@ a:hover{
 
 #UCT
 {
-    position: absolute;
+    position: relative;
     margin-left: 24.5rem;
     font-weight: bold;
     text-decoration: none;
@@ -178,15 +175,15 @@ a:hover{
 }
 
 #udemy {
-    position: absolute;
-    margin-left: 11.7rem;
+    position: relative;
+    left: 18em;;
     font-weight: bold;
     text-decoration: none;
     font-family: lato;
 }
 
 #getsmarter {
-    position: absolute;
+    position: relative;
     margin-left: 30.1rem;
     font-weight: bold;
     text-decoration: none;
@@ -195,7 +192,7 @@ a:hover{
 
 
 #shaw-academy {
-    position: absolute;
+    position: relative;
     margin-left: 29.8rem;
     font-weight: bold;
     text-decoration: none;
@@ -203,7 +200,7 @@ a:hover{
 }
 
 #prestige-academy {
-    position: absolute;
+    position: relative;
     margin-left: 29rem;
     font-weight: bold;
     text-decoration: none;
@@ -220,4 +217,50 @@ a:hover{
     border: 1px solid black;
     margin-top: -10px;
     margin-left: -37px;
+}
+
+.workhl
+{
+    border-top: 3px solid black;
+    width: 75rem;
+    margin-left: -0.3rem;
+    margin-top: 2rem;
+}
+
+#Job
+{
+    margin-left: 20em;
+    text-decoration: underline;
+    font-family: lato;
+    font-size: 20px;
+}
+
+#Company
+{
+    margin-left: 25em;
+    text-decoration: underline;
+    font-family: lato;
+    font-size: 20px;
+}
+
+#yearworked
+{
+    margin-left: 20em;
+    position: relative;
+    margin-left: 0em;
+}
+
+#jtitle
+{
+    position: relative;
+    margin-left: 19em;
+}
+
+#jduck
+{
+    position: relative;
+    margin-left: 29rem;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: lato;
 }
