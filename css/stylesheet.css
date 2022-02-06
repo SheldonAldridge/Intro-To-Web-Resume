@@ -1,75 +1,104 @@
-body
-{
-    margin: 0rem;
-}
-#header {
-    background-image: linear-gradient(rgb(255, 0, 0,0.7) 1%, rgba(0, 0, 0, 0.9) 90%);
-    color: white;
-    text-align: center;
-    font-family: BankGothic Md BT;
-    padding-bottom:1rem;
-    
+html {
+    margin: auto;
 }
 
-#header h3 {
-    font-family: lato;
-    color: white;
-}
-
-#header img {
-
-    width: 17%;
-    height: 17%;
-
+body {
+    margin: auto;
 }
 
 #sidebar {
-    
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2) 1%, rgb(255, 0, 0,0.5) 90%);
-    width: 100%;
-    font-family: "BankGothic Md BT";
+    position: fixed;
+    margin:auto;
+    background: #2C2C2E;
+    padding-bottom: 100%;
+    margin-top: -14rem;
 }
 
-#main
-{
-    background-color: #363540;
+#sidebar img {
+    margin-top: 2rem;
+    margin-left: 7rem;
+    border-radius: 100%;
+
 }
 
-#sidebar h2 {
-    padding-top: 1rem;
-    font-family: BankGothic Md BT;
-    color: white;
+#nav-menu {
+    background: #A3897B;
+    margin-top: 9rem;
+}
+
+#nav-menu h2 {
     text-align: center;
+    color: #F2F2F2;
 }
 
-nav
-{
-    margin-top: -21px;
+#nav-menu li {
+    display: inline;
 }
 
-.nav-menu li{
-
-    display: inline-block;
-    margin-bottom: 1%;
-    text-align: center;
+#nav-menu ul {
+    margin-right: 4vw;
+    font-size: 14px;
+    margin-top: -29%;
 }
 
-.nav-menu a{
 
-    color: white;
+#nav-menu a {
     text-decoration: none;
-    margin: 140pt;
+    color: #F2F2F2;
+    padding:10px
 }
 
-.nav-menu li:hover{
-
-    background-image: linear-gradient(#363540 1%, #8499D9 90%);
-    padding: 5px;
-}
-
-#footer
+#header
 {
-    background-color: #072083; 
-    text-align: center;
-    color: #F85B1A;
+    margin-left: 26rem;
 }
+
+#header h1
+{
+    font-family: BankGothic Md BT;
+    font-size: 60px;
+    margin-bottom: -2%;
+}
+
+#SubheadingTable h3
+{
+    font-size: 30px;
+    font-family: lato;
+}
+
+#SubheadingTable h5
+{
+    font-size: 30px;
+    font-family: lato;
+}
+
+#content
+{
+    
+}
+
+.book-icon
+{
+    margin-left: 32rem;
+    border-radius: 100%;
+    border: 3px solid black;
+}
+
+.book-icon img
+{
+   
+}
+
+#content h2
+{
+    margin-left: 2rem;
+}
+
+.vl
+{
+  
+    border-top: 3px solid black;
+    width: 77rem;
+    margin-left: 36rem; 
+}
+
