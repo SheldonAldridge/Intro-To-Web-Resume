@@ -1,2 +1,2 @@
-# Intro-To-Web-Resume
-Intro To Web Module - Creating a Resume
+# Didital Resume
+This is my digital resume
