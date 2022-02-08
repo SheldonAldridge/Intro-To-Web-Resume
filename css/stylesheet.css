@@ -6,81 +6,139 @@ body {
   font-family: lato;
   font-size: 110%;
   background-color: #E69669;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
   text-align: center;
   background-color: #457B9D;
   margin: -8px;
+  margin-bottom: 0px;
+  justify-content: center;
 }
 
 header h1 {
   font-family: BankGothic Md BT;
-  color:white;
+  color: white;
 }
 
 header h4 {
   font-family: lato;
-  color:white;
+  color: white;
 }
 
 li {
   list-style-type: none;
 }
 
-h2{
-  font-size: 40px;
-  background-color: #1D3557;
-  margin: 20px;
-  padding: 40px;
-  color: white;
+.main {
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#article p {
+  margin-left: 10px;
+}
+
+#article h3 {
+  margin-left: 10px;
 }
 
 #headshot {
   margin-top: 1%;
   border-radius: 100%;
-  border:3px solid #1D3557;
+  border: 3px solid #1D3557;
 }
 
 #sidebar {
-  background-color: #A8DADC;
-  margin-top: -24px;
+  background-color: #1C558E;
   margin-left: -8px;
-  margin-bottom:-17px;
-  margin-right: 89%;
 }
 
 #sidebar h2 {
+  background-color: #1D3557;
   font-family: BankGothic Md BT;
-  padding-left: 7%;
+  margin: 31px;
+  padding-left: 17px;
+  padding-top: 18px;
+  padding-bottom: 10px;
+  margin-right: 12px;
+  margin-top: 0px;
+  color: white;
 }
 
-#contact
-{
- margin-left: 2em;
+.nav-menu a:hover {
+  background-color: #1D3557;
+  padding: 1px;
 }
 
-#Education
-{
-  margin: -9px;
-  margin-top: -9px;
+.nav-menu a {
+  color: white;
 }
 
-#experience
-{
-  margin: -9px;
-  margin-top: -9px;
+.nav-menu li {
+  padding: 10px;
 }
 
-#skills
-{
-  margin: -9px;
-  margin-top: -9px;
+#sidebar nav {
+  margin-left: -14%;
+}
+
+#contact {
+  margin-left: 24px;
+}
+
+#Education {
+  background-color: #1D3557;
+  margin: 20px;
+  padding: 18px;
+  margin-top: -18px;
+  margin-right: -8px;
+  margin-left: 0px;
+  color: white;
+}
+
+#Education a {
+  text-decoration-style: none;
+}
+
+#experience {
+  background-color: #1D3557;
+  margin: -1px -11px 20px 0px;
+  padding: 18px;
+
+  color: white;
+}
+
+#skills {
+  background-color: #1D3557;
+  margin: -1px -11px 20px 0px;
+  padding: 18px;
+  color: white;
 }
 
 footer {
   background-color: #457B9D;
   text-align: center;
   margin: -8px;
-  margin-top:1px;
+  margin-top: 1px;
+}
+
+.footer img {
+  margin-right: 38px;
+}
+
+.footer h2 {
+  background-color: #1D3557;
+  margin: -11px;
+  padding: 39px;
+  margin-top: 0px;
+  margin-right: 19px;
+  color: white;
 }
