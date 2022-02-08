@@ -5,42 +5,54 @@ html {
 body {
   font-family: lato;
   font-size: 110%;
-  background-color: #FCF7F8;
+  background-color: #E69669;
 }
 
 header {
   text-align: center;
   background-color: #457B9D;
+  margin: -8px;
 }
 
 header h1 {
   font-family: BankGothic Md BT;
+  color:white;
 }
 
 header h4 {
   font-family: lato;
+  color:white;
 }
 
 li {
   list-style-type: none;
 }
 
+h2{
+  font-size: 40px;
+  background-color: #1D3557;
+  margin: 20px;
+  padding: 40px;
+  color: white;
+}
+
 #headshot {
-  margin-top: 1em;
+  margin-top: 1%;
   border-radius: 100%;
+  border:3px solid #1D3557;
 }
 
 #sidebar {
   background-color: #A8DADC;
-  margin-right: 70rem;
+  margin-top: -24px;
+  margin-left: -8px;
+  margin-bottom:-17px;
+  margin-right: 89%;
 }
 
 #sidebar h2 {
   font-family: BankGothic Md BT;
-}
-
-#sidebar h2 {
-  font-family: BankGothic Md BT;
+  padding-left: 7%;
 }
 
 #contact
@@ -48,7 +60,27 @@ li {
  margin-left: 2em;
 }
 
+#Education
+{
+  margin: -9px;
+  margin-top: -9px;
+}
+
+#experience
+{
+  margin: -9px;
+  margin-top: -9px;
+}
+
+#skills
+{
+  margin: -9px;
+  margin-top: -9px;
+}
+
 footer {
   background-color: #457B9D;
   text-align: center;
+  margin: -8px;
+  margin-top:1px;
 }
