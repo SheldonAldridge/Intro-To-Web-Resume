@@ -67,6 +67,7 @@ header h4 {
 #sidebar {
   box-shadow: 10px 10px 30px black;
   background-color: #1C558E;
+  margin-bottom: -18px;
 }
 
 #sidebar h2 {
@@ -210,6 +211,7 @@ footer {
   box-shadow: 0px -10px 20px 0px black;
   background-color: #457B9D;
   text-align: center;
+  margin-top: 16px;
 }
 
 .footer img {
