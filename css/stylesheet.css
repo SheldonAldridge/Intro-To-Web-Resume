@@ -1,23 +1,23 @@
 html {
   border: 10px solid #1D3557;
-  
+  display: flex;
 
 }
 
 body {
   font-family: lato;
   font-size: 110%;
-  background-color: #E69669;
+  background-color: rgb(247, 203, 158);
   display: flex;
   flex-direction: column;
 }
 
 header {
-  background-image: linear-gradient(to right, #457B9D , #1D3557);
+  background-image: linear-gradient(to right, #457B9D, #1D3557);
   text-align: center;
   margin-bottom: 0px;
   justify-content: center;
-  box-shadow: 10px 10px 30px black ;
+  box-shadow: 10px 10px 30px black;
 }
 
 header h1 {
@@ -36,22 +36,20 @@ header h4 {
   overflow: unset;
 }
 
-a:link {
-  text-decoration: none;
-}
-
-#contents
-{
+#contents {
   margin-left: 20px;
 }
 
 #aboutme {
-  background-color: ;
-  padding: 18px;
+  background-image: linear-gradient(to right, #457B9D, #1D3557);
+  font-family: BankGothic Md BT;
+  color: white;
+  padding-left: 10px;
 }
 
 #article p {
   margin-left: 10px;
+  font-family: lato;
 }
 
 #article h3 {
@@ -59,8 +57,8 @@ a:link {
 }
 
 #headshot {
-  width:10rem;
-  height:10rem;
+  width: 10rem;
+  height: 10rem;
   margin-top: 1%;
   border-radius: 100%;
   border: 3px solid #1D3557;
@@ -81,13 +79,78 @@ a:link {
   color: white;
 }
 
+.loc {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.loc img {
+  margin-top: 16px;
+  margin-left: -30px;
+}
+
+.loc li {
+  list-style-type: none;
+  color: white;
+
+}
+
+.loc p {
+  font-size: 16px;
+}
+
+.cell {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.cell img {
+  margin-top: 16px;
+  margin-left: -41px;
+
+}
+
+.cell li {
+  list-style-type: none;
+  padding: 11px;
+  color: white
+}
+
+.cell p {
+  margin-left: -29px;
+  font-size: 16px;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+}
+
+.email img {
+  margin-top: 16px;
+  margin-left: -40px;
+}
+
+.email li {
+  list-style-type: none;
+  padding: 11px;
+  color: white
+}
+
+.email p {
+  margin-left: -29px;
+  font-size: 16px;
+}
+
 .nav-menu a:hover {
   background-color: #1D3557;
   padding: 1px;
 }
 
 .nav-menu a {
-  
+
   color: white;
 }
 
@@ -96,44 +159,55 @@ a:link {
   list-style-type: none;
 }
 
-.interests
-{
+.interests {
   list-style-type: none;
 }
 
-.interests li
-{
+.interests li {
+  padding: 10px;
+  color: white;
+}
+
+.info li {
   padding: 10px;
   color: white;
 }
 
 #contact {
   margin-left: 24px;
+  font-family: BankGothic Md BT;
+  color: white;
 }
 
 #Education {
+  background-image: linear-gradient(to right, #457B9D, #1D3557);
+  font-family: BankGothic Md BT;
+  color: white;
+  padding-left: 10px;
 
-  margin: 20px;
-  padding: 18px;
-  margin-top: -18px;
-  margin-right: -8px;
-  margin-left: 0px;
 }
 
 #Education a {
   text-decoration-style: none;
+
 }
 
 #experience {
-  padding: 18px;
+  background-image: linear-gradient(to right, #457B9D, #1D3557);
+  font-family: BankGothic Md BT;
+  color: white;
+  padding-left: 10px;
 }
 
 #skills {
-  padding: 18px;
+  background-image: linear-gradient(to right, #457B9D, #1D3557);
+  font-family: BankGothic Md BT;
+  color: white;
+  padding-left: 10px;
 }
 
 footer {
-  box-shadow:  0px -10px 20px 0px black;
+  box-shadow: 0px -10px 20px 0px black;
   background-color: #457B9D;
   text-align: center;
 }
@@ -151,7 +225,13 @@ footer {
   color: white;
 }
 
-.footer img
-{
-  width:50px;
-} 
+.footer img {
+  width: 50px;
+  border-radius: 100%;
+}
+
+.footer img:hover {
+  width: 60px;
+  box-shadow: 0 0 20px 5px #1D3557;
+  border-radius: 100%;
+}
