@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
 
+
 <body>
     <header id="heading">
         <img id="headshot" src="images/ProfilePicture.jpg" alt="Profile Picture">
@@ -17,9 +18,10 @@
     </header>
 
     <main class="main">
+
+        <!--Sidebar is used to display the nav menu, my interest and information. Chose to do it this way as it keeps the layout neat and inline-->
         <div id="sidebar">
             <nav>
-
                 <h2>Menu</h2>
                 <ul class="nav-menu">
                     <li><a href="#education">Education</a></li>
@@ -57,7 +59,9 @@
                         <img src="/images/mail.svg" alt="cellphone icon">
                     </li>
                     <li>
+                        <a href="https://github.com/SheldonAldridge" target="_blank">
                         <p>sheldonaldridge@yahoo.com</p>
+                    </a>
                     </li>
                 </ul>
             </nav>
@@ -81,9 +85,6 @@
                 <h2 id="Education">Education</h2>
                 <h3>Front End Developer at <a href="https://www.codespace.co.za/" target="_blank">CodeSpace Academy</a>
                 </h3>
-
-
-
                 <p>This course went beyond the basics of web development and specialized in frontend technologies.
                     The courses content focused on JavaScript and its framworks like Vue and Bootstrap
                     for creating interactive user experience more rapidly. I learned responsive design
@@ -188,10 +189,10 @@
         </div>
     </main>
 
+    <!--For the ul element did not add li to make the icons inline easier using css-->
     <footer class="footer">
         <h2 id="contact">Contact Details</h2>
         <ul>
-            <p>
                 <a href="https://www.linkedin.com/in/sheldon-aldridge-bb05a1b0/" target="_blank">
 
                     <img src="images/linkedin.png" alt="Sheldon Aldridge linkedin">
