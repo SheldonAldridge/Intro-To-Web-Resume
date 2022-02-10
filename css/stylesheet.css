@@ -82,7 +82,7 @@ header h4 {
 
 .loc {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
 }
 
 .loc img {
@@ -142,6 +142,10 @@ header h4 {
 .email p {
   margin-left: -29px;
   font-size: 16px;
+}
+
+.email a {
+  color: white;
 }
 
 .nav-menu a:hover {
@@ -233,6 +237,6 @@ footer {
 
 .footer img:hover {
   width: 60px;
-  box-shadow: 0 0 20px 5px #1D3557;
+  box-shadow: 0 0 20px 5px #4d97ff;
   border-radius: 100%;
 }
