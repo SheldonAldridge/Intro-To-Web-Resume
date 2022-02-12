@@ -20,57 +20,56 @@
     <main class="main">
 
         <!--Sidebar is used to display the nav menu, my interest and information. Chose to do it this way as it keeps the layout neat and inline-->
-        <div id="sidebar">
+        <div class="sidebar">
             <nav>
-                <h2>Menu</h2>
+                
                 <ul class="nav-menu">
+                    <h2>Menu</h2>
                     <li><a href="#education">Education</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#skills">Skills</a></li>
                 </ul>
 
-                <h2>Interests</h2>
+                
                 <ul class="interests">
+                    <h2>Interests</h2>
                     <li>Reading</li>
                     <li>Documentaries</li>
                     <li>Gaming</li>
                     <li>Music</li>
                 </ul>
 
+                <ul id = "info">
                 <h2>info</h2>
                 <ul class="loc">
                     <li>
-                        <img src="/images/Location.svg" alt="google map marker icon">
-                    </li>
-                    <li>
+                        <img img class="icons" src="/images/Location.svg" alt="google map marker icon">
+                        <div id = "text">
                         <p>65 d'Urban Street Bothasig</p>
+                    </div>
                     </li>
+                    
                 </ul>
                 <ul class="cell">
                     <li>
-                        <img src="/images/mobile.svg" alt="cellphone icon">
-                    </li>
-                    <li>
-                        <p>079 716 9463</p>
+                        <img img class="icons"  src="/images/mobile.svg" alt="cellphone icon">
                     </li>
                 </ul>
                 <ul class="email">
                     <li>
-                        <img src="/images/mail.svg" alt="cellphone icon">
+                        <img class="icons" src="images/yahoo.svg" alt="Sheldon Aldridge yahoo icon">
                     </li>
-                    <!--added mailto to here incase users email is not set up on their desktop, they can just copy and paste my email address
-                    using their email in their browser instead-->
                     <li>
                         <a href="mailto:sheldonaldridge@yahoo.com" target="_blank">
-                        <p>sheldonaldridge@yahoo.com</p>
-                    </a>
+                        </a>
+                        </a>
                     </li>
                 </ul>
             </nav>
         </div>
 
-        <article id="article">
-            <div id="contents">
+        <article class="article">
+            <div class="contents">
                 <h2 id="aboutme">About Me</h2>
                 <p>
                     I have a passion for technology and design. I am eager to learn, which results in upskilling myself
@@ -193,30 +192,37 @@
 
     <!--For the ul element did not add li to make the icons inline easier using css-->
     <footer class="footer">
-        <h2 id="contact">Contact Details</h2>
+        <h2 id="contact">Social Media</h2>
         <ul>
-                <a href="https://www.linkedin.com/in/sheldon-aldridge-bb05a1b0/" target="_blank">
+            <a href="https://www.linkedin.com/in/sheldon-aldridge-bb05a1b0/" target="_blank">
 
-                    <img src="images/linkedin.png" alt="Sheldon Aldridge linkedin">
-                </a>
-                <a href="https://www.facebook.com/sheldon.aldridge.5/" target="_blank">
+                <img src="images/linkedin.png" alt="Sheldon Aldridge linkedin">
+            </a>
+            <a href="https://www.facebook.com/sheldon.aldridge.5/" target="_blank">
 
-                    <img src="images/Facebook.svg" alt="Sheldon Aldridge linkedin">
-                </a>
+                <img src="images/Facebook.svg" alt="Sheldon Aldridge linkedin">
+            </a>
+            <a href="https://github.com/SheldonAldridge" target="_blank">
 
-                <!--Just like the email address in the sidebar, I did the same thing but with my email server icon,only think this part does not
-                give to the user is my email address for them to copy and paste-->
-                <a href="mailto:sheldonaldridge@yahoo.com" target="_blank">
-
-                    <img class="icons" src="images/yahoo.svg" alt="Sheldon Aldridge yahoo icon">
-                </a>
-                <a href="https://github.com/SheldonAldridge" target="_blank">
-
-                    <img class="icons" src="images/github.svg" alt="Sheldon Aldridge Github icon">
-                </a>
+                <img class="icons" src="images/github.svg" alt="Sheldon Aldridge Github icon">
+            </a>
         </ul>
 
     </footer>
+</body>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
 </body>
 
 </html>
