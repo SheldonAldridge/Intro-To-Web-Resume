@@ -6,7 +6,6 @@ html {
 
 body {
   font-family: lato;
-  font-size: 110%;
   background-color: rgb(247, 203, 158);
   display: flex;
   flex-direction: column;
@@ -36,7 +35,7 @@ header h4 {
   overflow: unset;
 }
 
-#contents {
+.contents {
   margin-left: 20px;
 }
 
@@ -47,12 +46,12 @@ header h4 {
   padding-left: 10px;
 }
 
-#article p {
+.article p {
   margin-left: 10px;
   font-family: lato;
 }
 
-#article h3 {
+.article h3 {
   margin-left: 10px;
 }
 
@@ -64,13 +63,13 @@ header h4 {
   border: 3px solid #1D3557;
 }
 
-#sidebar {
+.sidebar {
   box-shadow: 10px 10px 30px black;
   background-color: #1C558E;
   margin-bottom: -18px;
 }
 
-#sidebar h2 {
+.sidebar h2 {
   text-align: center;
   background-color: #1D3557;
   font-family: BankGothic Md BT;
@@ -78,23 +77,53 @@ header h4 {
   padding-bottom: 10px;
   margin-top: 0px;
   color: white;
+  margin-left: -40px;
+}
+
+#interests h2
+{
+  text-align: center;
+  background-color: #1D3557;
+  font-family: BankGothic Md BT;
+  padding-top: 18px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  color: white;
+  margin-left: -40px;
+}
+
+#icons
+{
+  width: 2em;
 }
 
 .loc {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  margin-left: -50px;
 }
 
+
 .loc img {
-  margin-top: 16px;
-  margin-left: -30px;
+  margin-left: 2rem;
 }
+
+.loc img:hover {
+  cursor: pointer;
+}
+
+.image-text
+{
+  opacity: 0;
+}
+
 
 .loc li {
   list-style-type: none;
   color: white;
-
 }
+
+
 
 .loc p {
   font-size: 16px;
