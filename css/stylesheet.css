@@ -296,3 +296,24 @@ footer {
   box-shadow: 0 0 20px 5px #4d97ff;
   border-radius: 100%;
 }
+
+#social-icons
+{
+ display:flexbox;
+ flex-direction: column;
+}
+
+.nav-up
+{
+  display:flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.nav-up img
+{
+  position: fixed;
+  margin-left: -3rem;
+  margin-top: 22rem;
+  margin-bottom: 10rem;
+}
