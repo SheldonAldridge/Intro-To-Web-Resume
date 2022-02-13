@@ -39,13 +39,6 @@ header h4 {
   margin-left: 20px;
 }
 
-#aboutme {
-  background-image: linear-gradient(to right, #457B9D, #1D3557);
-  font-family: BankGothic Md BT;
-  color: white;
-  padding-left: 10px;
-}
-
 .article p {
   margin-left: 10px;
   font-family: lato;
@@ -123,8 +116,6 @@ header h4 {
 
 .loc img:hover {
   cursor: pointer;
-  box-shadow: 0 0 20px 5px #4d97ff;
-  border-radius: 100%;
 }
 
 .cell {
@@ -141,11 +132,7 @@ header h4 {
 }
 
 .cell img:hover {
-  
   cursor: pointer;
-  box-shadow: 0 0 20px 5px #4d97ff;
-  border-radius: 100%;
-  
 }
 
 .cell:hover #text
@@ -175,12 +162,6 @@ header h4 {
   width: 3rem;
   cursor: pointer;
 }
-
-.email img:hover {
-  box-shadow: 0 0 20px 5px #4d97ff;
-  border-radius: 100%;
-}
-
 
 .email li {
   list-style-type: none;
@@ -239,17 +220,24 @@ header h4 {
   color: white;
 }
 
-#Education {
+#aboutme {
   background-image: linear-gradient(to right, #457B9D, #1D3557);
   font-family: BankGothic Md BT;
   color: white;
   padding-left: 10px;
-
 }
 
-#Education a {
-  text-decoration-style: none;
+#aboutme p{
+  background-image: linear-gradient(to right, #457B9D, #1D3557);
+  color: white;
+  padding-left: 10px;
+}
 
+#education{
+  background-image: linear-gradient(to right, #457B9D, #1D3557);
+  font-family: BankGothic Md BT;
+  color: white;
+  padding-left: 10px;
 }
 
 #experience {
