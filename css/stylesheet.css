@@ -105,40 +105,53 @@ header h4 {
 
 
 .loc img {
-  margin-left: 2rem;
+  margin-left: 5rem;
+  width: 2rem;
+}
+
+#text{
+  opacity: 0;
+  font-size: 16px;
+  color: white;
+}
+
+.loc:hover #text
+{
+  opacity: 1;
+  transition: all 0.5s;
 }
 
 .loc img:hover {
   cursor: pointer;
-}
-
-.image-text
-{
-  opacity: 0;
-}
-
-
-.loc li {
-  list-style-type: none;
-  color: white;
-}
-
-
-
-.loc p {
-  font-size: 16px;
+  box-shadow: 0 0 20px 5px #4d97ff;
+  border-radius: 100%;
 }
 
 .cell {
   display: flex;
   flex-direction: row;
   padding-top: 10px;
+  
 }
 
-.cell img {
-  margin-top: 16px;
-  margin-left: -41px;
+.cell img
+{
+  margin-left: 1rem;
+  width: 2rem;
+}
 
+.cell img:hover {
+  
+  cursor: pointer;
+  box-shadow: 0 0 20px 5px #4d97ff;
+  border-radius: 100%;
+  
+}
+
+.cell:hover #text
+{
+  opacity: 1;
+  transition: all 0.5s;
 }
 
 .cell li {
@@ -148,8 +161,8 @@ header h4 {
 }
 
 .cell p {
-  margin-left: -29px;
   font-size: 16px;
+  margin-left:-1rem;
 }
 
 .email {
@@ -158,9 +171,16 @@ header h4 {
 }
 
 .email img {
-  margin-top: 16px;
-  margin-left: -40px;
+  margin-left: 1rem;
+  width: 2.5rem;
+  cursor: pointer;
 }
+
+.email img:hover {
+  box-shadow: 0 0 20px 5px #4d97ff;
+  border-radius: 100%;
+}
+
 
 .email li {
   list-style-type: none;
@@ -169,8 +189,15 @@ header h4 {
 }
 
 .email p {
-  margin-left: -29px;
+  margin-left: -59px;
   font-size: 16px;
+}
+
+.email:hover #text
+{
+  opacity: 1;
+  transition: all 0.5s;
+  
 }
 
 .email a {
