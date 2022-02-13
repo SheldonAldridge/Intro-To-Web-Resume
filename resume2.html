@@ -11,14 +11,16 @@
 
 
 <body>
+    
     <header id="heading">
+        <a href id="profilepic">
         <img id="headshot" src="images/ProfilePicture.jpg" alt="Profile Picture">
+    </a>
         <h1>Sheldon Aldridge</h1>
         <h4>Front End Developer. Thinking Big. Thinking Design.</h4>
     </header>
 
     <main class="main">
-
         <!--Sidebar is used to display the nav menu, my interest and information. Chose to do it this way as it keeps the layout neat and inline-->
         <div class="sidebar">
             <nav>
@@ -68,8 +70,6 @@
                         </div>
                     </li>
                     <li>
-                        
-                        
                     </li>
                 </ul>
             </nav>
@@ -90,7 +90,7 @@
                 </p>
 
                 <p>
-                <h2 id="Education">Education</h2>
+                <h2 id="education">Education</h2>
                 <h3>Front End Developer at <a href="https://www.codespace.co.za/" target="_blank">CodeSpace Academy</a>
                 </h3>
                 <p>This course went beyond the basics of web development and specialized in frontend technologies.
@@ -195,17 +195,23 @@
                 </ul>
         </article>
         </div>
+        <div class ="nav-up">
+            <a href="#profilepic">
+            <img src="images/Up arrow.svg" alt="up arrow">
+        </a>
+        </div>
     </main>
 
     <!--For the ul element did not add li to make the icons inline easier using css-->
     <footer class="footer">
         <h2 id="contact">Social Media</h2>
+        <div id="social-icons">
         <ul>
             <a href="https://www.linkedin.com/in/sheldon-aldridge-bb05a1b0/" target="_blank">
 
                 <img src="images/linkedin.png" alt="Sheldon Aldridge linkedin">
             </a>
-            <a href="https://www.facebook.com/sheldon.aldridge.5/" target="_blank">
+            <a  href="https://www.facebook.com/sheldon.aldridge.5/" target="_blank">
 
                 <img src="images/Facebook.svg" alt="Sheldon Aldridge linkedin">
             </a>
@@ -214,6 +220,7 @@
                 <img class="icons" src="images/github.svg" alt="Sheldon Aldridge Github icon">
             </a>
         </ul>
+    </div>
 
     </footer>
 </body>
