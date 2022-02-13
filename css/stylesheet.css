@@ -105,8 +105,8 @@ header h4 {
 
 
 .loc img {
-  margin-left: 5rem;
-  width: 2rem;
+  margin-left: 4.7rem;
+  width: 3rem;
 }
 
 #text{
@@ -137,7 +137,7 @@ header h4 {
 .cell img
 {
   margin-left: 1rem;
-  width: 2rem;
+  width: 3rem;
 }
 
 .cell img:hover {
@@ -172,7 +172,7 @@ header h4 {
 
 .email img {
   margin-left: 1rem;
-  width: 2.5rem;
+  width: 3rem;
   cursor: pointer;
 }
 
