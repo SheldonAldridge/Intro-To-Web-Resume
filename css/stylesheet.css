@@ -191,13 +191,14 @@ header h4 {
 }
 
 .nav-menu a {
-
   color: white;
+  text-decoration: none;
 }
 
 .nav-menu li {
   padding: 10px;
   list-style-type: none;
+  
 }
 
 .interests {
@@ -231,6 +232,7 @@ header h4 {
   background-image: linear-gradient(to right, #457B9D, #1D3557);
   color: white;
   padding-left: 10px;
+  
 }
 
 #education{
@@ -292,7 +294,7 @@ footer {
 
 #social-icons img:hover {
   transform: scale(1.3);
-  box-shadow: 0 0 20px 5px #4d97ff;
+  box-shadow: 0 0 1px 3px #4d97ff;
   border-radius: 100%;
 }
 
